@@ -16,11 +16,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DisplayMessageActivity"
-                  android:parentActivityName=".MainActivity">
+        <activity android:name=".AddressActivity"
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity"/>
+        </activity>
+        <activity android:name=".BirthdayActivity"
+            android:parentActivityName=".AddressActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AddressActivity"/>
+        </activity>
+        <activity android:name=".DisplayMessageActivity"
+                  android:parentActivityName=".BirthdayActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BirthdayActivity"/>
         </activity>
     </application>
 

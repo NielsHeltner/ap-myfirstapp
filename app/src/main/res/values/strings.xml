@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">MyFirstApp</string>
-    <string name="edit_message">Enter a message</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="enter_address">Enter your address</string>
+    <string name="enter_birthday">Enter your birthday</string>
     <string name="button_send">Send</string>
 </resources>
